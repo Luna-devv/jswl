@@ -111,16 +111,13 @@ for (const number of numberList) {
 console.log("all items: ", numberList);
 </code></pre>
 
-{% code title="terminal" %}
-```bash
-$ node .
+<pre class="language-bash" data-title="terminal"><code class="lang-bash">$ node .
 start: 1
 end: 1
 
 start: 2
-start: 3
-end: 3
-
+<strong>start: 3
+</strong><strong>end: 3
+</strong>
 all items: [1, 2, 3]
-```
-{% endcode %}
+</code></pre>
