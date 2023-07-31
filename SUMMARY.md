@@ -1,3 +1,7 @@
 # Table of contents
 
-* [Page](README.md)
+* [🧐 JSWL](README.md)
+
+## 🎈 Loops
+
+* [for-const](loops/for-const.md)
