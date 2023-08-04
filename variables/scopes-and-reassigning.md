@@ -84,19 +84,15 @@ console.log(variable);
 
 Giving a variable a new value is not possible with `const`, only with `let`. Even if this sounds like an advantage for the `let`-keyword, you shouldn't use it if you don't need to as it uses more ram.
 
-{% code title="const reassigning" lineNumbers="true" %}
+{% code title="const without reassigning" lineNumbers="true" %}
 ```javascript
-const username = "Luna";
-username = "mwlica"; // ❌
+const username = "Luna"; ✅
 ```
 {% endcode %}
 
-{% code title="let reassigning" lineNumbers="true" %}
-```javascript
-let username = "Luna";
-username = "mwlica"; // ✅
-```
-{% endcode %}
+<pre class="language-javascript" data-title="const reassigning" data-line-numbers><code class="lang-javascript"><strong>const username = "Luna";
+</strong>username = "mwlica"; // ❌
+</code></pre>
 
 {% code title="let without reassinging" lineNumbers="true" %}
 ```javascript
@@ -104,3 +100,6 @@ let username = "Luna"; // ❌
 ```
 {% endcode %}
 
+<pre class="language-javascript" data-title="let reassigning" data-line-numbers><code class="lang-javascript"><strong>let username = "Luna";
+</strong>username = "mwlica"; // ✅
+</code></pre>
