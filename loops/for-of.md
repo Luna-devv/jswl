@@ -2,7 +2,7 @@
 description: for const of loops
 ---
 
-# for-const
+# for const of
 
 This JavaScript build in feature allows you to loop over arrays, maps, sets and other lists.
 
